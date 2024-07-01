@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+.gradient-border {
+  overflow: hidden;
+  border-radius: 4px;
+  @apply border-[1px] border-solid;
+  border-image: linear-gradient(45deg, #e025ce, #34b9ef, #bd24e6) 1;
+}
+.classrounded {
+  display: inline-flex;
+  border: double 1px transparent;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #2b3030, #68597f, #332c31),
+    radial-gradient(circle at top left, #e025ce, #34b9ef);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: black;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to top, #17c6ed, #f808c1);
+  border-radius: 999px;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}

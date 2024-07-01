@@ -1,0 +1,50 @@
+{
+  "name": "lumox-studio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
+    "@studio-freight/tempus": "^0.0.44",
+    "@tanstack/react-query": "^5.40.0",
+    "@web3modal/wagmi": "^4.2.3",
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "clsx": "^2.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "framer-motion": "^11.2.10",
+    "lenis": "^1.1.2",
+    "next": "^14.2.3",
+    "nextjs-progressbar": "^0.0.16",
+    "nextjs-toploader": "^1.6.12",
+    "nodemailer": "^6.9.13",
+    "nprogress": "^0.2.0",
+    "path": "^0.12.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.2.1",
+    "react-responsive": "^10.0.0",
+    "react-toastify": "^10.0.5",
+    "tailwind-merge": "^2.3.0",
+    "viem": "^2.13.2",
+    "wagmi": "^2.9.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
